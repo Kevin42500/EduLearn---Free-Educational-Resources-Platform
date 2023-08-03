@@ -1,4 +1,4 @@
-// Sample course data with images
+
 const courses = [
     {
       image: 'images/Math.JPEG.jpg',
@@ -28,17 +28,33 @@ const courses = [
   
   ];
   
-  // Populate course list
-  const courseList = document.getElementById('course-list');
-  courses.forEach(course => {
-    const courseCard = document.createElement('div');
-    courseCard.classList.add('course-card');
-    courseCard.innerHTML = `
-      <img src="${course.image}" alt="${course.title}">
-      <h3>${course.title}</h3>
-      <p>${course.description}</p>
-      <button>Enroll Now</button>
-    `;
-    courseList.appendChild(courseCard);
+
+const courseList = document.getElementById('course-list');
+courses.forEach(course => {
+  const courseCard = document.createElement('div');
+  courseCard.classList.add('course-card');
+  courseCard.innerHTML = `
+    <img src="${course.image}" alt="${course.title}">
+    <h3>${course.title}</h3>
+    <p>${course.description}</p>
+    <button class="enroll-button">Enroll Now</button>
+  `;
+  courseList.appendChild(courseCard);
+
+  const enrollButton = courseCard.querySelector('.enroll-button');
+  enrollButton.addEventListener('click', () => {
+    enrollButton.textContent = 'Enrolled';
+    enrollButton.style.backgroundColor = '#4CAF50';
+    enrollButton.style.cursor = 'default';
+    enrollButton.disabled = true;
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const exploreButton = document.getElementById('explore-btn');
+  
+    exploreButton.addEventListener('click', () => {
+      alert('Button clicked!'); 
+    });
   });
   
