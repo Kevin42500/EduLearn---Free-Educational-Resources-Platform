@@ -26,6 +26,7 @@ In order to run this project you need the following:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: *Bett Cheruiyot kevin*
+Backend Url:  https://kevin42500.github.io/EduLearn---Free-Educational-Resources-Platform/
 
 - Instagram: [@githubhandle](https://www.instagram.com/)
 - Twitter: [@twitterhandle](https://twitter.com/kevoo965)
