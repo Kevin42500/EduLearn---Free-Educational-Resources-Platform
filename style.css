@@ -107,3 +107,28 @@ footer {
   flex: 1;
 }
 
+
+.course-card {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.course-card .course-image {
+  flex: 0 0 120px;
+  height: 120px;
+  margin-right: 1rem;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card .course-image img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.course-card .course-details {
+  flex: 1;
+}
+

@@ -20,18 +20,35 @@
   </header>
 
   <main>
-    <section id="home">
-      <h2>Welcome to Free Learning Platform</h2>
-      <p>Access a wide range of free learning materials to enhance your knowledge and skills.</p>
-      <button id="explore-btn">Explore Courses</button>
-    </section>
+  </section><section id="home">
+    <h2>Welcome to Free Learning Platform</h2>
+    <p>Access a wide range of free learning materials to enhance your knowledge and skills.</p>
+    <button id="explore-btn">Explore Courses</button>
+  </section>
 
-    <section id="courses">
-      <h2>Available Courses</h2>
-      <div id="course-list">
-        
-      </div>
-    </section>
+
+  <section id="courses">
+    <h2>Available Courses</h2>
+    <div>
+      <input type="text" id="search-bar" placeholder="Search courses...">
+      <button id="search-button">Search</button>
+    </div>
+    <div id="course-list"></div>
+  </section>
+  
+
+<section id="create-edit-course" style="display: none;">
+  <h2>Create/Edit Course</h2>
+  <form id="course-form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" required>
+    <label for="description">Description:</label>
+    <textarea id="description" rows="4" required></textarea>
+    <button id="save-course">Save</button>
+    <button id="cancel-course">Cancel</button>
+  </form>
+</section>
+
 
     <section id="about">
       <h2>About Us</h2>
