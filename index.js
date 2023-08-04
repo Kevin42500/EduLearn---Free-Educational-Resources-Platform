@@ -1,30 +1,30 @@
 
 const courses = [
-    {
-      image: 'images/Math.JPEG.jpg',
-      title: 'Introduction to Mathematics',
-      description: 'Learn the fundamentals of mathematics in this comprehensive course.',
-    },
-    {
-      image: 'images/Js.JPEG.jpeg',
-      title: 'Programming Basics with JavaScript',
-      description: 'Get started with coding using JavaScript and build interactive web applications.',
-    },
-    {
-      image: 'images/Eng.JPEG.jpeg',
-      title: 'English Grammar Mastery',
-      description: 'Improve your English grammar skills and enhance your communication.',
-    },
-    {
-        image: 'images/Ps.JPEG.jpeg',
-        title: 'Introduction to Psychology',
-        description: 'Enhance your skills in reading people thoughts and behaviours',
+    { "image": "images/Math.JPEG.jpg",
+        "title": "Introduction to Mathematics",
+        "description": "Learn the fundamentals of mathematics in this comprehensive course."
       },
       {
-        image: 'images/CHEM.JPEG.jpg',
-        title: 'Introduction to Chemistry',
-        description: 'Extend your knowledge on chemistry',
+        "image": "images/Js.JPEG.jpeg",
+        "title": "Programming Basics with JavaScript",
+        "description": "Get started with coding using JavaScript and build interactive web applications."
       },
+      {
+        "image": "images/Eng.JPEG.jpeg",
+        "title": "English Grammar Mastery",
+        "description": "Improve your English grammar skills and enhance your communication."
+      },
+      {
+          "image": "images/Ps.JPEG.jpeg",
+          "title": "Introduction to Psychology",
+          "description": "Enhance your skills in reading people thoughts and behaviours"
+        },
+        {
+          "image": "images/CHEM.JPEG.jpg",
+          "title": "Introduction to Chemistry",
+          "description": "Extend your knowledge on chemistry."
+        },
+    
   
   ];
   
